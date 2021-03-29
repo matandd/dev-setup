@@ -608,7 +608,7 @@ If you prefer to install it separately, you can download it [here](https://www.v
 
     $ brew update
     $ brew install caskroom/cask/brew-cask
-    $ brew cask install --appdir="/Applications" virtualbox
+    $ brew install --cask --appdir="/Applications" virtualbox
 
 ### Vagrant
 
@@ -627,7 +627,7 @@ If you prefer to install it separately, you can download it [here](https://www.v
 
     $ brew update
     $ brew install caskroom/cask/brew-cask
-    $ brew cask install --appdir="/Applications" vagrant
+    $ brew install --cask --appdir="/Applications" vagrant
 
 ### Docker
 
@@ -1567,7 +1567,7 @@ In terms of a GUI client for MySQL, I'm used to the official and free [MySQL Wor
 The [datastores.sh script](#datastoressh-script) installs MySQL Workbench.  If you prefer to install it separately, run:
 
     $ brew install caskroom/cask/brew-cask
-    $ brew cask install --appdir="/Applications" mysqlworkbench
+    $ brew install --cask --appdir="/Applications" mysqlworkbench
 
 You can also find the MySQL Workbench download [here](http://www.mysql.com/downloads/workbench/). (**Note**: It will ask you to sign in, you don't need to, just click on "No thanks, just start my download!" at the bottom.)
 
@@ -1824,7 +1824,7 @@ If you prefer to install it separately, you can download the JDK [here](http://w
 
     $ brew update
     $ brew install caskroom/cask/brew-cask
-    $ brew cask install --appdir="~/Applications" java
+    $ brew install --cask --appdir="~/Applications" java
 
 ### Android SDK
 
@@ -1850,7 +1850,7 @@ If you prefer to install it separately, you can download it [here](https://devel
 
     $ brew update
     $ brew install caskroom/cask/brew-cask
-    $ brew cask install --appdir="~/Applications" android-studio
+    $ brew install --cask --appdir="~/Applications" android-studio
 
 ### IntelliJ IDEA
 
@@ -1865,7 +1865,7 @@ If you prefer to install it separately, you can download it [here](https://www.j
 
     $ brew update
     $ brew install caskroom/cask/brew-cask
-    $ brew cask install --appdir="~/Applications" intellij-idea-ce
+    $ brew install --cask --appdir="~/Applications" intellij-idea-ce
 
 ## Section 8: Misc
 
