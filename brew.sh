@@ -109,7 +109,7 @@ brew install git-lfs
 brew install git-flow
 brew install git-extras
 brew install hub
-brew install imagemagick --with-webp
+brew install imagemagick
 # brew install lua
 # brew install lynx
 brew install p7zip
