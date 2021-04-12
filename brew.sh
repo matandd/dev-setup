@@ -19,7 +19,7 @@ fi
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -43,7 +43,7 @@ sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
 
 # Install `wget` with IRI support.
-brew install wget --with-iri
+brew install wget
 
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
@@ -62,10 +62,10 @@ brew install python3
 # grep -q "$LINE" ~/.extra || echo "$LINE" >> ~/.extra
 
 # Install more recent versions of some OS X tools.
-c
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+# dupes was deprecated
+# brew install homebrew/dupes/grep
+# brew install homebrew/dupes/openssh
+# brew install homebrew/dupes/screen
 # brew install homebrew/php/php55 --with-gmp
 
 # Install font tools.
@@ -143,8 +143,8 @@ brew install --cask --appdir="~/Applications" java
 brew install --cask --appdir="~/Applications" xquartz
 
 # Development tool casks
-brew install --cask --appdir="/Applications" sublime-text
-brew install --cask --appdir="/Applications" atom
+# brew install --cask --appdir="/Applications" sublime-text
+# brew install --cask --appdir="/Applications" atom
 # brew install --cask --appdir="/Applications" virtualbox
 # brew install --cask --appdir="/Applications" vagrant
 brew install --cask --appdir="/Applications" macdown
@@ -158,7 +158,7 @@ brew install --cask --appdir="/Applications" firefox
 brew install --cask --appdir="/Applications" slack
 # brew install --cask --appdir="/Applications" dropbox
 # brew install --cask --appdir="/Applications" evernote
-brew install --cask --appdir="/Applications" 1password
+# brew install --cask --appdir="/Applications" 1password
 #brew install --cask --appdir="/Applications" gimp
 #brew install --cask --appdir="/Applications" inkscape
 brew install --cask --appdir="/Applications" mattermost
