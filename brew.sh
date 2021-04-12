@@ -139,7 +139,7 @@ brew link libxslt --force
 # brew install --cask --appdir="/Applications" alfred
 brew install --cask --appdir="/Applications" raycast
 brew install --cask --appdir="~/Applications" iterm2
-brew install --cask --appdir="~/Applications" java
+brew install homebrew/cask-versions/adoptopenjdk8 --cask
 brew install --cask --appdir="~/Applications" xquartz
 
 # Development tool casks
