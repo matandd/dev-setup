@@ -150,6 +150,8 @@ brew install --cask --appdir="~/Applications" xquartz
 brew install --cask --appdir="/Applications" macdown
 brew install --cask --appdir="/Applications" zettlr
 brew install --cask --appdir="/Applications" joplin
+brew install --cask --appdir="/Applications" visual-studio-code
+brew install --cask --appdir="/Applications" jetbrains-toolbox
 
 # Misc casks
 brew install --cask --appdir="/Applications" google-chrome
@@ -162,10 +164,11 @@ brew install --cask --appdir="/Applications" slack
 #brew install --cask --appdir="/Applications" gimp
 #brew install --cask --appdir="/Applications" inkscape
 brew install --cask --appdir="/Applications" mattermost
-brew install --cask --appdir="/Applications" forticlient-vpn
+brew install --cask --appdir="/Applications" openfortivpn
 #Remove comment to install LaTeX distribution MacTeX
 #brew install --cask --appdir="/Applications" mactex
 brew install --cask --appdir="/Applications" keepassxc
+brew install starship
 
 # Install Docker, which requires virtualbox
 brew install docker
