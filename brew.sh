@@ -49,6 +49,10 @@ brew install wget
 brew install python
 brew install python3
 
+# Install python accessories
+brew install pipenv
+brew install pyenv
+
 # Install more recent versions of some OS X tools.
 brew install grep
 brew install openssh
