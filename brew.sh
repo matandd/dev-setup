@@ -124,6 +124,9 @@ brew install webkit2png
 # brew install zopfli
 brew install pkg-config libffi
 brew install pandoc
+brew install tmux
+brew install starship
+brew install android-platform-tools
 
 # Lxml and Libxslt
 brew install libxml2
@@ -168,7 +171,8 @@ brew install --cask --appdir="/Applications" openfortivpn
 #Remove comment to install LaTeX distribution MacTeX
 #brew install --cask --appdir="/Applications" mactex
 brew install --cask --appdir="/Applications" keepassxc
-brew install starship
+brew install --cask --appdir="/Applications" netnewswire
+brew install --cask --appdir="/Applications" anydesk
 
 # Install Docker, which requires virtualbox
 brew install docker
