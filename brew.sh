@@ -52,6 +52,7 @@ brew install python3
 # Install more recent versions of some OS X tools.
 brew install grep
 brew install openssh
+brew install aria2
 
 # Install font tools.
 brew tap bramstein/webfonttools
