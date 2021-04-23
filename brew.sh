@@ -90,6 +90,7 @@ brew install pandoc
 brew install tmux
 brew install starship
 brew install android-platform-tools
+brew install youtube-dl
 
 # Lxml and Libxslt
 brew install libxml2
