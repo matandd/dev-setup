@@ -173,6 +173,7 @@ brew install --cask --appdir="/Applications" openfortivpn
 brew install --cask --appdir="/Applications" keepassxc
 brew install --cask --appdir="/Applications" netnewswire
 brew install --cask --appdir="/Applications" anydesk
+brew install homebrew/cask-drivers/logitech-options
 
 # Install Docker, which requires virtualbox
 brew install docker
